@@ -12,6 +12,7 @@ const { protocol, hostname, port, pathname } = new URL(
 /** @type {import('next').NextConfig} */
 module.exports = {
   images: {
+    domains: ['blueprintnextjsbackend.local','0.gravatar.com'],
     remotePatterns: [
       {
         protocol: protocol.slice(0, -1),
