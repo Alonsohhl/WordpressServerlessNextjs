@@ -12,7 +12,7 @@ const { protocol, hostname, port, pathname } = new URL(
 /** @type {import('next').NextConfig} */
 module.exports = {
   images: {
-    domains: ['blueprintnextjsbackend.local','0.gravatar.com'],
+    domains: ['wordpressmu-1202650-4250977.cloudwaysapps.com','0.gravatar.com'],
     remotePatterns: [
       {
         protocol: protocol.slice(0, -1),
